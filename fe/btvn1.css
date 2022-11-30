@@ -56,6 +56,13 @@ img{
     border-color: #d448ffce;
     border-radius: 5px;
     background-color: white;
+    transition: all linear 0.5s;
+}
+.pro-inf button:hover{
+    background-color: #af00e4;
+    color: white;
+    cursor: pointer;
+
 }
 
 .pro-inf button i{
@@ -63,8 +70,3 @@ img{
     margin-left: 20px;
 }
 
-.pro-inf button:hover{
-    background-color: #c60dff;
-    color: white;
-    cursor: pointer;
-}
