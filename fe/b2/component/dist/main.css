@@ -17,10 +17,14 @@
   font-size: 17px;
   list-style-type: none;
 }
+.main .main_sidebar ul li a:hover {
+  color: #0000d5;
+}
 .main .main_section {
   width: 75%;
   padding: 20px;
   background-color: #f1f1f1;
+  font-size: 14px;
 }
 .main .main_section h2 {
   font-size: 42px;
@@ -29,4 +33,27 @@
 }
 .main .main_section p:last-child {
   margin: 15px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .main .main_sidebar {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .main .main_sidebar ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .main .main_section {
+    width: 100%;
+  }
+  .main .main_section h2 {
+    font-size: 38px;
+    margin: 7px 0;
+  }
 }

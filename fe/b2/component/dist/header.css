@@ -8,3 +8,9 @@
   font-weight: 600;
   color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+}
