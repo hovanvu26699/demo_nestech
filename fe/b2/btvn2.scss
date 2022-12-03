@@ -1,0 +1,16 @@
+@import "./component/header";
+@import "./component/main.scss";
+@import "./component//footer.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid rgba(165, 165, 165, 0.242);
+}

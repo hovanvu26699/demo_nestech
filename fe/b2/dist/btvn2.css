@@ -1,0 +1,65 @@
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color: #666;
+}
+.header h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+
+.main {
+  display: flex;
+  height: 300px;
+}
+.main .main_sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.main .main_sidebar ul {
+  margin: 5px 0;
+}
+.main .main_sidebar ul li {
+  display: block;
+}
+.main .main_sidebar ul li a {
+  font-size: 17px;
+  list-style-type: none;
+}
+.main .main_section {
+  width: 75%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+.main .main_section h2 {
+  font-size: 42px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.main .main_section p:last-child {
+  margin: 15px 0;
+}
+
+.footer {
+  padding: 25px 0;
+  background-color: #666;
+}
+.footer .footer_content {
+  text-align: center;
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid rgba(165, 165, 165, 0.242);
+}
